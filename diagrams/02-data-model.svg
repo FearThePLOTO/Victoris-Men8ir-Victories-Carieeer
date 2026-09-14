@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1414" height="792" font-family="'JetBrains Mono', monospace">
+<rect width="1414" height="792" fill="white"/>
+<g transform="translate(99.6,4.0)">
+<rect x="40.0" y="20.0" width="1120.0" height="46.0" rx="8" fill="#14365d" stroke="#14365d" stroke-width="2" opacity="1.0"/>
+<text x="54.0" y="51.0" font-size="20" fill="#ffffff" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="54.0" dy="0.0">Data model - Carieeer</tspan></text>
+<rect x="40.0" y="90.0" width="340.0" height="44.0" rx="8" fill="#14365d" stroke="#14365d" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="119.0" font-size="19" fill="#ffffff" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">User</tspan></text>
+<rect x="40.0" y="134.0" width="340.0" height="110.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="157.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">id PK</tspan></text>
+<text x="52.0" y="179.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">email UQ</tspan></text>
+<text x="52.0" y="201.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">password_hash</tspan></text>
+<text x="52.0" y="223.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">role: candidate/employer</tspan></text>
+<rect x="420.0" y="90.0" width="360.0" height="44.0" rx="8" fill="#14365d" stroke="#14365d" stroke-width="2" opacity="1.0"/>
+<text x="432.0" y="119.0" font-size="19" fill="#ffffff" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="432.0" dy="0.0">Company</tspan></text>
+<rect x="420.0" y="134.0" width="360.0" height="110.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="432.0" y="157.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="432.0" dy="0.0">id PK</tspan></text>
+<text x="432.0" y="179.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="432.0" dy="0.0">name</tspan></text>
+<text x="432.0" y="201.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="432.0" dy="0.0">info</tspan></text>
+<text x="432.0" y="223.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="432.0" dy="0.0">has many Positions</tspan></text>
+<rect x="820.0" y="90.0" width="340.0" height="44.0" rx="8" fill="#14365d" stroke="#14365d" stroke-width="2" opacity="1.0"/>
+<text x="832.0" y="119.0" font-size="19" fill="#ffffff" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="832.0" dy="0.0">Skills</tspan></text>
+<rect x="820.0" y="134.0" width="340.0" height="88.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="832.0" y="157.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="832.0" dy="0.0">id PK</tspan></text>
+<text x="832.0" y="179.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="832.0" dy="0.0">name UQ</tspan></text>
+<text x="832.0" y="201.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="832.0" dy="0.0">shared canonical list</tspan></text>
+<rect x="40.0" y="290.0" width="340.0" height="44.0" rx="8" fill="#14365d" stroke="#14365d" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="319.0" font-size="19" fill="#ffffff" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">Candidate</tspan></text>
+<rect x="40.0" y="334.0" width="340.0" height="132.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="357.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">user_id PK/FK -&gt; User</tspan></text>
+<text x="52.0" y="379.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">portfolio</tspan></text>
+<text x="52.0" y="401.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">goals</tspan></text>
+<text x="52.0" y="423.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">education, exp_years</tspan></text>
+<text x="52.0" y="445.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">Skills via join</tspan></text>
+<rect x="420.0" y="290.0" width="360.0" height="44.0" rx="8" fill="#14365d" stroke="#14365d" stroke-width="2" opacity="1.0"/>
+<text x="432.0" y="319.0" font-size="19" fill="#ffffff" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="432.0" dy="0.0">Employer</tspan></text>
+<rect x="420.0" y="334.0" width="360.0" height="66.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="432.0" y="357.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="432.0" dy="0.0">user_id PK/FK -&gt; User</tspan></text>
+<text x="432.0" y="379.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="432.0" dy="0.0">company_id FK -&gt; Company</tspan></text>
+<rect x="820.0" y="290.0" width="340.0" height="44.0" rx="8" fill="#14365d" stroke="#14365d" stroke-width="2" opacity="1.0"/>
+<text x="832.0" y="319.0" font-size="19" fill="#ffffff" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="832.0" dy="0.0">Positions</tspan></text>
+<rect x="820.0" y="334.0" width="340.0" height="154.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="832.0" y="357.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="832.0" dy="0.0">id PK</tspan></text>
+<text x="832.0" y="379.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="832.0" dy="0.0">company_id FK -&gt; Company</tspan></text>
+<text x="832.0" y="401.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="832.0" dy="0.0">title, description</tspan></text>
+<text x="832.0" y="423.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="832.0" dy="0.0">pay_min / pay_max</tspan></text>
+<text x="832.0" y="445.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="832.0" dy="0.0">skill-list (join)</tspan></text>
+<text x="832.0" y="467.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="832.0" dy="0.0">status: open/paused/closed</tspan></text>
+<rect x="40.0" y="530.0" width="520.0" height="44.0" rx="8" fill="#14365d" stroke="#14365d" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="559.0" font-size="19" fill="#ffffff" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">Applications</tspan></text>
+<rect x="40.0" y="574.0" width="520.0" height="132.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="597.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">id PK</tspan></text>
+<text x="52.0" y="619.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">position_id FK -&gt; Positions</tspan></text>
+<text x="52.0" y="641.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">candidate_id FK -&gt; Candidate</tspan></text>
+<text x="52.0" y="663.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">UQ(position_id, candidate_id)</tspan></text>
+<text x="52.0" y="685.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">status + review note</tspan></text>
+<rect x="600.0" y="530.0" width="560.0" height="44.0" rx="8" fill="#14365d" stroke="#14365d" stroke-width="2" opacity="1.0"/>
+<text x="612.0" y="559.0" font-size="19" fill="#ffffff" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="612.0" dy="0.0">Notifications</tspan></text>
+<rect x="600.0" y="574.0" width="560.0" height="110.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="612.0" y="597.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="612.0" dy="0.0">id PK</tspan></text>
+<text x="612.0" y="619.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="612.0" dy="0.0">user_id FK -&gt; User</tspan></text>
+<text x="612.0" y="641.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="612.0" dy="0.0">type: match/status/roadmap</tspan></text>
+<text x="612.0" y="663.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="612.0" dy="0.0">body, is_read</tspan></text>
+<path d="M 200.0,244.0 L 200.0,290.0" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="208.0" y="271.0" font-size="13" fill="#14365d" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="208.0" dy="0.0">1-1</tspan></text>
+<path d="M 380.0,170.0 L 400.0,170.0" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 400.0,170.0 L 400.0,345.0" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 400.0,345.0 L 420.0,345.0" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="407.9" y="263.9" font-size="13" fill="#14365d" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="407.9" dy="0.0">1-1</tspan></text>
+<path d="M 600.0,244.0 L 600.0,290.0" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="608.0" y="271.0" font-size="13" fill="#14365d" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="608.0" dy="0.0">N-1</tspan></text>
+<path d="M 780.0,170.0 L 800.0,170.0" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 800.0,170.0 L 800.0,389.0" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 800.0,389.0 L 820.0,389.0" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="808.0" y="243.0" font-size="13" fill="#14365d" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="808.0" dy="0.0">1-N</tspan></text>
+<path d="M 990.0,222.0 L 990.0,290.0" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="998.0" y="263.0" font-size="13" fill="#14365d" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="998.0" dy="0.0">N-N join</tspan></text>
+<path d="M 150.0,466.0 L 150.0,530.0" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="158.0" y="505.0" font-size="13" fill="#14365d" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="158.0" dy="0.0">1-N</tspan></text>
+<path d="M 649.2,489.2 L 649.6,529.2" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1008.9" y="512.0" font-size="13" fill="#14365d" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="1008.9" dy="0.0">1-N</tspan></text>
+<text x="40.0" y="737.0" font-size="13" fill="#14365d" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="40.0" dy="0.0">PK = primary key, FK = foreign key, UQ = unique. Lines show direct FKs.</tspan></text>
+<text x="40.0" y="759.0" font-size="13" fill="#14365d" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="40.0" dy="0.0">Skill links are join tables, listed in the relations table in README.</tspan></text>
+<path d="M 37.1,401.7 L -20.6,400.5" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M -21.5,149.4 L -21.5,400.7" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M -23.1,151.8 L -73.6,150.7" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1288.1,175.4 L 1162.5,174.9" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1173.1" y="158.4" font-size="13" fill="#14365d" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="1173.1" dy="0.0">N-N Cand-Skills</tspan></text>
+<path d="M 300.0,489.1 L 651.3,490.0" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 298.0,466.3 L 297.8,491.4" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="430.2" y="473.7" font-size="13" fill="#14365d" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="430.2" dy="0.0">1-N</tspan></text>
+</g></svg>

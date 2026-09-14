@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1188" height="839" font-family="'JetBrains Mono', monospace">
+<rect width="1188" height="839" fill="white"/>
+<g transform="translate(-16.0,-3.0)">
+<rect x="40.0" y="30.0" width="540.0" height="46.0" rx="8" fill="#14365d" stroke="#14365d" stroke-width="2" opacity="1.0"/>
+<text x="54.0" y="61.0" font-size="20" fill="#ffffff" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="54.0" dy="0.0">Functional</tspan></text>
+<rect x="620.0" y="30.0" width="560.0" height="46.0" rx="8" fill="#14365d" stroke="#14365d" stroke-width="2" opacity="1.0"/>
+<text x="634.0" y="61.0" font-size="20" fill="#ffffff" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="634.0" dy="0.0">Non-Functional</tspan></text>
+<rect x="40.0" y="90.0" width="540.0" height="72.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="115.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">Authentication</tspan></text>
+<text x="52.0" y="137.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">  login, register, user-tokens</tspan></text>
+<rect x="40.0" y="172.0" width="540.0" height="72.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="197.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">Authorization</tspan></text>
+<text x="52.0" y="219.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">  role-based flow: candidates or employers</tspan></text>
+<rect x="40.0" y="254.0" width="540.0" height="72.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="279.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">Candidate profile</tspan></text>
+<text x="52.0" y="301.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">  profile, applications, skill listing</tspan></text>
+<rect x="40.0" y="336.0" width="540.0" height="72.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="361.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">Job listing</tspan></text>
+<text x="52.0" y="383.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">  posted by employers</tspan></text>
+<rect x="40.0" y="418.0" width="540.0" height="72.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="443.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">Matching engine</tspan></text>
+<text x="52.0" y="465.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">  job recommendations (black box)</tspan></text>
+<rect x="40.0" y="500.0" width="540.0" height="72.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="525.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">Search and discovery</tspan></text>
+<text x="52.0" y="547.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">  browse jobs by name, skills</tspan></text>
+<rect x="40.0" y="582.0" width="540.0" height="72.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="607.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">Roadmap</tspan></text>
+<text x="52.0" y="629.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">  skill-list recommendation</tspan></text>
+<rect x="40.0" y="664.0" width="540.0" height="72.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="689.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">Applications + reviews</tspan></text>
+<text x="52.0" y="711.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">  apply, review, status change</tspan></text>
+<rect x="40.0" y="746.0" width="540.0" height="72.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="771.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">Push notifications</tspan></text>
+<text x="52.0" y="793.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">  matches, status, roadmap steps</tspan></text>
+<rect x="620.0" y="90.0" width="560.0" height="72.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="632.0" y="115.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="632.0" dy="0.0">Scalability</tspan></text>
+<text x="632.0" y="137.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="632.0" dy="0.0">  up to 1,000,000 users at a time</tspan></text>
+<rect x="620.0" y="172.0" width="560.0" height="72.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="632.0" y="197.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="632.0" dy="0.0">Latency</tspan></text>
+<text x="632.0" y="219.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="632.0" dy="0.0">  400ms search / 100ms profile / 200ms CRUD</tspan></text>
+<rect x="620.0" y="254.0" width="560.0" height="72.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="632.0" y="279.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="632.0" dy="0.0">Reliability</tspan></text>
+<text x="632.0" y="301.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="632.0" dy="0.0">  works without failures or data loss</tspan></text>
+<rect x="620.0" y="336.0" width="560.0" height="72.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="632.0" y="361.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="632.0" dy="0.0">Availability</tspan></text>
+<text x="632.0" y="383.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="632.0" dy="0.0">  up and reachable 99% of the day</tspan></text>
+<rect x="620.0" y="418.0" width="560.0" height="72.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="632.0" y="443.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="632.0" dy="0.0">Security</tspan></text>
+<text x="632.0" y="465.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="632.0" dy="0.0">  encryption, rate-limit, GDPR export+delete</tspan></text>
+<path d="M 600.0,30.0 L 600.0,500.0" fill="none" stroke="#14365d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g></svg>

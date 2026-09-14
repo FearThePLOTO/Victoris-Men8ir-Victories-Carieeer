@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1168" height="1401" font-family="'JetBrains Mono', monospace">
+<rect width="1168" height="1401" fill="white"/>
+<g transform="translate(-16.0,4.0)">
+<rect x="40.0" y="20.0" width="1120.0" height="46.0" rx="8" fill="#14365d" stroke="#14365d" stroke-width="2" opacity="1.0"/>
+<text x="54.0" y="51.0" font-size="20" fill="#ffffff" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="54.0" dy="0.0">API design - token auth, EMPTY means reload list</tspan></text>
+<rect x="40.0" y="85.0" width="1120.0" height="46.0" rx="8" fill="#14365d" stroke="#14365d" stroke-width="2" opacity="1.0"/>
+<text x="54.0" y="113.0" font-size="17" fill="#ffffff" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="54.0" dy="0.0">Auth (3)</tspan></text>
+<rect x="40.0" y="139.0" width="1120.0" height="50.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="163.0" font-size="14" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">POST /login | email, password -&gt; token | 200</tspan></text>
+<rect x="40.0" y="197.0" width="1120.0" height="50.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="221.0" font-size="14" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">POST /register | username, email, password, role -&gt; token | 201</tspan></text>
+<rect x="40.0" y="255.0" width="1120.0" height="50.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="279.0" font-size="14" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">DELETE /logout | token -&gt; EMPTY | 204</tspan></text>
+<rect x="40.0" y="325.0" width="1120.0" height="46.0" rx="8" fill="#14365d" stroke="#14365d" stroke-width="2" opacity="1.0"/>
+<text x="54.0" y="353.0" font-size="17" fill="#ffffff" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="54.0" dy="0.0">Profile (3)</tspan></text>
+<rect x="40.0" y="379.0" width="1120.0" height="50.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="403.0" font-size="14" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">GET /profile | token -&gt; user-details | 200</tspan></text>
+<rect x="40.0" y="437.0" width="1120.0" height="50.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="461.0" font-size="14" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">PATCH /profile | token, user-data -&gt; EMPTY | 200</tspan></text>
+<rect x="40.0" y="495.0" width="1120.0" height="50.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="519.0" font-size="14" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">POST /profile/skills | token, skill-list -&gt; EMPTY | 201</tspan></text>
+<rect x="40.0" y="565.0" width="1120.0" height="46.0" rx="8" fill="#14365d" stroke="#14365d" stroke-width="2" opacity="1.0"/>
+<text x="54.0" y="593.0" font-size="17" fill="#ffffff" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="54.0" dy="0.0">Jobs (9)</tspan></text>
+<rect x="40.0" y="619.0" width="1120.0" height="50.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="643.0" font-size="14" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">GET /jobs -&gt; job-list | 200</tspan></text>
+<rect x="40.0" y="677.0" width="1120.0" height="50.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="701.0" font-size="14" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">GET /jobs/show/{id} | job-id -&gt; job-details | 200</tspan></text>
+<rect x="40.0" y="735.0" width="1120.0" height="50.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="759.0" font-size="14" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">GET /jobs/matching | candidate skills -&gt; matching-jobs | 200</tspan></text>
+<rect x="40.0" y="793.0" width="1120.0" height="50.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="817.0" font-size="14" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">POST /jobs/store | job-details -&gt; EMPTY | 201</tspan></text>
+<rect x="40.0" y="851.0" width="1120.0" height="50.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="875.0" font-size="14" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">GET /jobs/search | name, skills -&gt; job-list | 200</tspan></text>
+<rect x="40.0" y="909.0" width="1120.0" height="50.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="933.0" font-size="14" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">POST /jobs/apply/{job-id} | job-id, token -&gt; EMPTY | 200, 409 double</tspan></text>
+<rect x="40.0" y="967.0" width="1120.0" height="50.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="991.0" font-size="14" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">POST /jobs/review/{app-id} | review-details -&gt; EMPTY | 201</tspan></text>
+<rect x="40.0" y="1025.0" width="1120.0" height="50.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="1049.0" font-size="14" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">PATCH /jobs/status/{app-id} | status -&gt; EMPTY | 204</tspan></text>
+<rect x="40.0" y="1083.0" width="1120.0" height="50.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="1107.0" font-size="14" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">GET /jobs/skill-gap/{job-id} | token, job -&gt; skill-list | 200</tspan></text>
+<rect x="40.0" y="1153.0" width="1120.0" height="46.0" rx="8" fill="#14365d" stroke="#14365d" stroke-width="2" opacity="1.0"/>
+<text x="54.0" y="1181.0" font-size="17" fill="#ffffff" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="54.0" dy="0.0">Notifications (3)</tspan></text>
+<rect x="40.0" y="1207.0" width="1120.0" height="50.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="1231.0" font-size="14" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">GET /notifications | token -&gt; list | 200</tspan></text>
+<rect x="40.0" y="1265.0" width="1120.0" height="50.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="1289.0" font-size="14" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">POST /notifications | details -&gt; EMPTY | 201</tspan></text>
+<rect x="40.0" y="1323.0" width="1120.0" height="50.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="1347.0" font-size="14" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">PUT /notifications/mark-read | notification-id -&gt; EMPTY | 200</tspan></text>
+</g></svg>

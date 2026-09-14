@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1388" height="1000" font-family="'JetBrains Mono', monospace">
+<rect width="1388" height="1000" fill="white"/>
+<defs><marker id="ah0" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 z" fill="#111111"/></marker></defs>
+<g transform="translate(-16.0,4.0)">
+<rect x="40.0" y="20.0" width="1340.0" height="46.0" rx="8" fill="#14365d" stroke="#14365d" stroke-width="2" opacity="1.0"/>
+<text x="54.0" y="51.0" font-size="20" fill="#ffffff" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="54.0" dy="0.0">Architecture - horizontal scaling, stateless app servers</tspan></text>
+<rect x="40.0" y="120.0" width="180.0" height="70.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="54.0" y="158.0" font-size="16" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="54.0" dy="0.0">Client</tspan></text>
+<rect x="260.0" y="120.0" width="180.0" height="70.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="274.0" y="158.0" font-size="16" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="274.0" dy="0.0">API</tspan></text>
+<rect x="480.0" y="120.0" width="200.0" height="70.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="494.0" y="158.0" font-size="16" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="494.0" dy="0.0">Load-Balancer</tspan></text>
+<path d="M 220.0,155.0 L 260.0,155.0" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah0)"/>
+<path d="M 440.0,155.0 L 480.0,155.0" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah0)"/>
+<rect x="760.0" y="80.0" width="260.0" height="90.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="774.0" y="127.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="774.0" dy="0.0">Stateless App-Server 1</tspan></text>
+<path d="M 680.0,125.0 L 760.0,95.0" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah0)"/>
+<path d="M 1020.0,125.0 L 1070.0,125.0" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="760.0" y="210.0" width="260.0" height="90.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="774.0" y="257.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="774.0" dy="0.0">Stateless App-Server 2</tspan></text>
+<path d="M 680.0,155.0 L 760.0,255.0" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah0)"/>
+<path d="M 1020.0,255.0 L 1070.0,255.0" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="760.0" y="340.0" width="260.0" height="90.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="774.0" y="387.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="774.0" dy="0.0">Stateless App-Server 3</tspan></text>
+<path d="M 680.0,155.0 L 760.0,385.0" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah0)"/>
+<path d="M 1020.0,385.0 L 1070.0,385.0" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="760.0" y="470.0" width="260.0" height="90.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="774.0" y="517.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="774.0" dy="0.0">Stateless App-Server 4</tspan></text>
+<path d="M 680.0,155.0 L 760.0,515.0" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah0)"/>
+<path d="M 1020.0,515.0 L 1070.0,515.0" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1070.0,100.0 L 1070.0,665.0" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1120.0" y="290.0" width="260.0" height="80.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="1178.2" y="335.0" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="1178.2" dy="0.0">Queues &amp; workers</tspan></text>
+<path d="M 1070.0,330.0 L 1120.0,330.0" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="870.0" cy="665.0" rx="150.0" ry="55.0" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+<text x="826.7" y="672.6" font-size="17.95530133928573" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="826.7" dy="0.0">Database</tspan></text>
+<rect x="1120.0" y="610.0" width="260.0" height="90.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="1229.4" y="663.0" font-size="16" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="1229.4" dy="0.0">cache</tspan></text>
+<path d="M 1020.0,665.0 L 1120.0,665.0" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="870.0" cy="795.0" rx="130.0" ry="45.0" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+<text x="814.0" y="798.7" font-size="15" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="814.0" dy="0.0">Object-storage</tspan></text>
+<path d="M 870.0,720.0 L 870.0,750.0" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="400.0" y="615.0" width="220.0" height="80.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="414.0" y="658.0" font-size="16" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="414.0" dy="0.0">Ai-Model</tspan></text>
+<path d="M 620.0,655.0 L 715.0,655.0" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah0)"/>
+<text x="760.0" y="585.0" font-size="13" fill="#14365d" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="760.0" dy="0.0">add more in rush times</tspan></text>
+<text x="740.0" y="865.0" font-size="13" fill="#14365d" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="740.0" dy="0.0">resumes, CVs, PDFs, images</tspan></text>
+<text x="400.0" y="598.0" font-size="13" fill="#14365d" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="400.0" dy="0.0">batch matching (black box)</tspan></text>
+<text x="40.0" y="914.0" font-size="14" fill="#14365d" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="40.0" dy="0.0">Flow: Client -&gt; API -&gt; Load-Balancer -&gt; any server -&gt; Database or cache.</tspan></text>
+<text x="40.0" y="940.0" font-size="14" fill="#14365d" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="40.0" dy="0.0">Writes hit the Database first, then queue jobs update cache and send push.</tspan></text>
+<text x="40.0" y="966.0" font-size="14" fill="#14365d" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="40.0" dy="0.0">Slow work (AI matching, feeds) runs in workers. Employer never waits for it.</tspan></text>
+</g></svg>

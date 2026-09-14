@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1168" height="395" font-family="'JetBrains Mono', monospace">
+<rect width="1168" height="395" fill="white"/>
+<g transform="translate(-16.0,4.0)">
+<rect x="40.0" y="20.0" width="1120.0" height="46.0" rx="8" fill="#14365d" stroke="#14365d" stroke-width="2" opacity="1.0"/>
+<text x="54.0" y="51.0" font-size="20" fill="#ffffff" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="54.0" dy="0.0">Estimates - 1M users, latency targets from NFR</tspan></text>
+<rect x="40.0" y="85.0" width="1120.0" height="50.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="109.0" font-size="14" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">Users: 1M registered, about 200k active on busy day. 50k open positions.</tspan></text>
+<rect x="40.0" y="143.0" width="1120.0" height="50.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="167.0" font-size="14" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">QPS: search about 6 avg / 20 peak. Profile about 1 avg / 5 peak. Applies under 1 avg.</tspan></text>
+<rect x="40.0" y="201.0" width="1120.0" height="50.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="225.0" font-size="14" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">Storage: profiles 8 GB, positions 0.3 GB, applications 15 GB over years.</tspan></text>
+<rect x="40.0" y="259.0" width="1120.0" height="50.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="283.0" font-size="14" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">Resumes 150 GB in storage. Redis about 5 GB. 2 app servers plus DB is enough.</tspan></text>
+<rect x="40.0" y="317.0" width="1120.0" height="50.0" rx="8" fill="#ffffff" stroke="#111111" stroke-width="2" opacity="1.0"/>
+<text x="52.0" y="341.0" font-size="14" fill="#111111" font-family="'JetBrains Mono', monospace" text-anchor="start"><tspan x="52.0" dy="0.0">Result: reads dominate. Cache and indexes matter more than servers.</tspan></text>
+</g></svg>
